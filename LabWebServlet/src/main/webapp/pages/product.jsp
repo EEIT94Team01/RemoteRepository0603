@@ -40,7 +40,7 @@ function clearForm() {
 
 <h3>Welcome ${user.email}</h3>
 
-<h3>您的產品列表</h3>
+<h3>Git Test您的產品列表</h3>
 
 <form action="<c:url value="/pages/product.controller" />" method="get">
 <table>
