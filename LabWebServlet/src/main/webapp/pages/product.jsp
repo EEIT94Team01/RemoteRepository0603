@@ -8,7 +8,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/main.css" />
 
-<title>Product</title>
+<title>Git版本的Product</title>
 <script type="text/javascript" src="../js/json2.js"></script>
 <script type="text/javascript" src="../js/product.js"></script>
 <script type="text/javascript">
@@ -40,7 +40,7 @@ function clearForm() {
 
 <h3>Welcome ${user.email}</h3>
 
-<h3>xxxProduct Table</h3>
+<h3>您的產品列表</h3>
 
 <form action="<c:url value="/pages/product.controller" />" method="get">
 <table>
