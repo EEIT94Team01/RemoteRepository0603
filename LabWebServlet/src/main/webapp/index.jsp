@@ -16,7 +16,7 @@
 
 <h3>Welcome My Home~~~ ${user.custid}</h3>
 
-<title>Home</title>
+<title>WWWW Home</title>
 </head>
 <body>
 
