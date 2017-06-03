@@ -6,21 +6,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<<<<<<< HEAD
-<title>Welcome My Home</title>
+<title> Hello  Home</title>
 </head>
 <body>
 
-<h3>Welcome My Home~~~ ${user.custid}</h3>
+<h3>Hello Welcome ${user.custid}</h3>
 
-=======
-<title>Home</title>
-</head>
-<body>
-
-<h3>Git版  Welcome ${user.custid}</h3>
-<h4>專題做不出來，救命</h4>
->>>>>>> branch 'master' of https://github.com/EEIT94Team01/RemoteRepository0603.git
 <h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
 <h3><a href="${pageContext.request.contextPath}/pages/product.jsp">Poduct</a></h3>
 

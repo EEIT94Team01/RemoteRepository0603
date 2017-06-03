@@ -8,7 +8,6 @@
 
 <link rel="stylesheet" type="text/css" href="../css/main.css" />
 
-<<<<<<< HEAD
 <title>Product</title>
 <script type="text/javascript" src="../js/json2.js"></script>
 <script type="text/javascript" src="../js/product.js"></script>
@@ -40,44 +39,8 @@ function clearForm() {
 <body>
 
 <h3>Welcome ${user.email}</h3>
-<h2>welcome hehehe </h2>
 
-<h3>xxx06031510Product Table</h3>
-
-<title>Git版本的Product</title>
-<script type="text/javascript" src="../js/json2.js"></script>
-<script type="text/javascript" src="../js/product.js"></script>
-<script type="text/javascript">
-var contextPath = "${pageContext.request.contextPath}";
-function doBlur() {
-	document.getElementById("img").style.display = "inline";
-	document.getElementsByTagName("form")[0].id.disabled = true;
-	
-	var id = document.getElementsByTagName("form")[0].id.value;
-// 	sendGetRequest(id, contextPath+"/pages/product.view");
-// 	sendPostRequest(id, contextPath+"/pages/product.view");
-	sendPostJsonRequest(id, contextPath+"/pages/product.view");
-}
-function clearForm() {
-	var spanElement = document.getElementsByTagName("span")[0];
-	if(spanElement.hasChildNodes()) {
-		spanElement.removeChild(spanElement.firstChild);
-	}
-	var inputs = document.getElementsByTagName("input");
-	for(var i=0; i<inputs.length; i++) {
-		if(inputs[i].type=="text") {
-  			inputs[i].value="";
-		}
-	}
-}
-</script>
-</head>
-<body>
-
-<h3>Welcome ${user.email}</h3>
-
-<h3>Git Test您的產品列表</h3>
->>>>>>> branch 'master' of https://github.com/EEIT94Team01/RemoteRepository0603.git
+<h3>xxxProduct Table</h3>
 
 <form action="<c:url value="/pages/product.controller" />" method="get">
 <table>
