@@ -6,11 +6,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Home</title>
+<title> Hello  Home</title>
 </head>
 <body>
 
-<h3>Welcome ${user.custid}</h3>
+<h3> Welcome ${user.custid}</h3>
 
 <h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
 <h3><a href="${pageContext.request.contextPath}/pages/product.jsp">Poduct</a></h3>
