@@ -6,14 +6,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<<<<<<< HEAD
+
 <title>Welcome My Home</title>
 </head>
 <body>
 
 <h3>Welcome My Home~~~ ${user.custid}</h3>
 
-=======
 <title>Home</title>
 </head>
 <body>
