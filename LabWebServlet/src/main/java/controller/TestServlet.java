@@ -15,11 +15,9 @@ public class TestServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest requset,
 			HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html; charset=UTF-8"); 
+		
 		PrintWriter out = response.getWriter();
-
-
 		out.println("<h1>林傳哲我要改名字</h1>");
-
 
 		out.close();
 
