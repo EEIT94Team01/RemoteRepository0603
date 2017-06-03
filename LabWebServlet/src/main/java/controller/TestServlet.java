@@ -16,7 +16,7 @@ public class TestServlet extends HttpServlet {
 			HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html; charset=UTF-8"); 
 		PrintWriter out = response.getWriter();
-		out.println("<h1>我叫徐振霖</h1>");
+		out.println("<h1>徐振霖</h1>");
 		out.close();
 	}
 	@Override
